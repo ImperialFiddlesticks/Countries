@@ -1,3 +1,7 @@
+* {
+  font-family: "Garamond";
+}
+
 header {
   height: 400px;
   background-color: rgb(167, 200, 228);
@@ -39,13 +43,37 @@ li {
 a {
   color: white;
   text-decoration: None;
+  border-radius: 5px;
+  padding: 5px;
 }
-
+.navlink:link {
+  background-color: rgb(127, 162, 211);
+}
+.navlink:hover {
+  background-color: rgb(108, 144, 195);
+}
 .Main {
   height: 1000px;
   width: 80%;
 }
 
+.mainheadline {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  color: rgb(118, 155, 188);
+  font-size: 50px;
+}
+.smallflags {
+  display: flex;
+  justify-content: center;
+}
+.flaglinks {
+  width: 75px;
+  height: 50px;
+  padding: 20px;
+}
 .img {
   display: flex;
   justify-content: center;
@@ -62,7 +90,15 @@ a {
 }
 
 .MainImg {
-  width: 1000px;
+  width: 70%;
+}
+.maintext {
+  display: flex;
+  justify-content: center;
+}
+.pickflag {
+  font-size: 25px;
+  color: rgb(118, 155, 188);
 }
 .countryheadline {
   display: flex;
@@ -89,7 +125,12 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
 }
-h2 {
+.footertext {
+  color: white;
+  padding-right: 20px;
+}
+
+h3 {
   color: white;
   padding-right: 20px;
 }
