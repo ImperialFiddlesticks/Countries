@@ -1,0 +1,90 @@
+header {
+  height: 400px;
+  background-color: rgb(167, 200, 228);
+  color: white;
+  text-align: center;
+  border: solid 3px white;
+}
+
+h1 {
+  font-size: 100px;
+}
+.headerheadline {
+  padding: 50px;
+}
+main {
+  display: flex;
+}
+.Navigation {
+  height: 1000px;
+  width: 20%;
+  background-color: aquamarine;
+  border: solid 3px white;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+ul {
+  list-style-type: none;
+}
+.navlink {
+  font-size: 45px;
+  color: white;
+  text-decoration: None;
+}
+a {
+  color: white;
+  text-decoration: None;
+}
+
+.Main {
+  height: 1000px;
+  width: 80%;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.flags {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.countryflag {
+  width: 500px;
+}
+
+.MainImg {
+  width: 700px;
+}
+.countryheadline {
+  display: flex;
+  justify-content: center;
+}
+.countryname {
+  color: rgb(118, 155, 188);
+}
+.countrytext {
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: large;
+  color: rgb(167, 200, 228);
+  width: 500px;
+  text-align: center;
+}
+footer {
+  height: 200px;
+  background-color: rgb(167, 200, 228);
+  border: solid 3px white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+h2 {
+  color: white;
+  padding-right: 20px;
+}
