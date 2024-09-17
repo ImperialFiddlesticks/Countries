@@ -4,25 +4,26 @@
 
 header {
   height: 400px;
-  background-color: rgb(167, 200, 228);
-  color: white;
+  background-color: rgb(98, 140, 167);
   text-align: center;
   border: solid 3px white;
 }
 
 h1 {
   font-size: 100px;
+  color: rgb(179, 216, 156);
 }
 .headerheadline {
   padding: 50px;
 }
 main {
   display: flex;
+  background-color: rgb(208, 239, 177);
 }
 .Navigation {
   height: 1000px;
   width: 20%;
-  background-color: rgb(127, 162, 211);
+  background-color: rgb(157, 195, 194);
   border: solid 3px white;
   display: flex;
   justify-content: center;
@@ -47,10 +48,10 @@ a {
   padding: 5px;
 }
 .navlink:link {
-  background-color: rgb(127, 162, 211);
+  background-color: rgb(157, 195, 194);
 }
 .navlink:hover {
-  background-color: rgb(108, 144, 195);
+  background-color: rgb(119, 166, 182);
 }
 .Main {
   height: 1000px;
@@ -62,7 +63,7 @@ a {
   justify-content: center;
 }
 h2 {
-  color: rgb(118, 155, 188);
+  color: rgb(119, 166, 182);
   font-size: 50px;
 }
 .smallflags {
@@ -119,7 +120,7 @@ p {
 }
 footer {
   height: 150px;
-  background-color: rgb(167, 200, 228);
+  background-color: rgb(98, 140, 167);
   border: solid 3px white;
   display: flex;
   justify-content: flex-end;
